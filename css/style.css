@@ -1,0 +1,157 @@
+@import url();
+
+body {
+	height: 100vh;
+	width: 100vw;
+	box-sizing: border-box;
+	background-color: rgb(25, 162, 174);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.my-1 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.mt-0-6 {
+	margin-top: 0.6rem;
+}
+
+.mb-1 {
+	margin-top: 1rem;
+}
+
+.fw-400 {
+	font-weight: 400;
+}
+
+.fw-700 {
+	font-weight: 700;
+}
+
+.fs-small {
+	font-size: small;
+}
+
+.d-c {
+	color: hsl(185, 75%, 39%);
+}
+
+.v-d-d-b {
+	color: hsl(229, 23%, 23%)
+}
+
+.d-g-b {
+	color: hsl(227, 10%, 46%)
+}
+
+.d-block {
+	display: block;
+}
+
+.bg-top,
+.bg-bottom {
+	z-index: -1;
+}
+
+.bg-top {
+	background-image: url(../images/bg-pattern-top.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	width: 50vw;
+	transform: rotate(180deg);
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.line {
+	width: 100%;
+	height: 1px;
+	background-color: lightgray;
+	margin: 1.225rem 0;
+}
+
+.bg-bottom {
+	background-image: url(../images/bg-pattern-bottom.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	width: 50vw;
+	transform: rotate(0deg);
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+.bg-pattern-top {
+	background-image: url(../images/bg-pattern-card.svg);
+	height: 30%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top-left-radius: 28px;
+	border-top-right-radius: 28px;
+}
+
+.container {
+	display: block;
+	width: 90%;
+	max-width: 400px;
+	max-height: 400px;
+	height: 70%;
+	margin: auto;
+	margin-top: 25%;
+	background-color: #fff;
+	box-shadow: 8px 8px 40px rgba(0, 0, 0, 0.432);
+	border-radius: 28px;
+	z-index: 99;
+}
+
+.profile-card {
+	width: 100%;
+	height: 100%;
+}
+
+.profile-card-img {
+	width: 120px;
+	height: 120px;
+	position: relative;
+	top: -10%;
+	margin: auto;
+}
+
+.profile-card-img img {
+	width: 100%;
+	height: 100%;
+	border: 4px solid #ffffff;
+	border-radius: 50%;
+}
+
+.content {
+	display: block;
+	text-align: center;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
+}
+
+.social-item {
+	width: 30%;
+	flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		margin-top: 15%;
+	}
+}

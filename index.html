@@ -1,35 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/style.css">
 
-  80K
-  Followers
+    <title>Frontend Mentor | Profile card component</title>
 
-  803K
-  Likes
+  </head>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <body class="">
+    <div class="bg-top"></div>
+    <div class="container">
+      <div class="profile-card">
+        <div class="bg-pattern-top"></div>
+        <div class="profile-card-img">
+          <img src="/images/image-victor.jpg" alt="Vicor's image">
+        </div>
+        <div class="content">
+          <span class="fw-700 v-d-d-b">Victor Crest</span>
+          <span class="fw-400 d-g-b">26</span>
+          <div class="fs-small d-g-b mt-0-6 d-g-b">London</div>
+          <div class="line"></div>
+          <div class="social">
+            <div class="social-item">
+              <span class="fw-700">
+                80K
+              </span>
+              <span class="fs-small d-block mt-0-6 d-g-b">Followers</span>
+            </div>
+
+            <div class="social-item">
+              <span class="fw-700">
+                803K
+              </span>
+              <span class="fs-small d-block mt-0-6 d-g-b">Likes</span>
+            </div>
+
+            <div class="social-item">
+              <span class="fw-700">
+                1.4K
+              </span>
+              <span class="fs-small d-block mt-0-6 d-g-b">Photos</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-bottom"></div>
+
+  </body>
+
 </html>
